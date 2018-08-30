@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TermsOfUseActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/termsOfUseTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/terms_of_use_title"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/termsOfUseTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/terms_of_use_text" />
+
+            <TextView
+                android:id="@+id/acceptanceTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/acceptance_title"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/acceptanceTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/acceptance_text" />
+
+            <TextView
+                android:id="@+id/ugcTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ugc_definitions_title"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ugcTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ugc_definitions_text" />
+
+            <TextView
+                android:id="@+id/rulesTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rules_title"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/rulesTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ugc_rules_text" />
+
+            <TextView
+                android:id="@+id/violationsTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/consequences_title"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/violationsTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/consequences_text" />
+
+            <TextView
+                android:id="@+id/judgmentTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/judgement_title"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/judgmentTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/judgment_text" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

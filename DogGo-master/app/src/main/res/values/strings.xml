@@ -1,0 +1,258 @@
+<resources>
+    <string name="app_name">DogGo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_sign_out">Sign Out</string>
+    <string name="title_activity_my_dogs">My Dogs</string>
+    <string name="title_activity_add_dog">Add a New Dog</string>
+    <string name="back">Go Back</string>
+
+    <string name="name_set">Name:</string>
+    <string name="breed_set">Breed:</string>
+    <string name="dog_name_hint">Your Dog\'s Name</string>
+    <string name="dog_breed_hint">Your Dog\'s Breed</string>
+    <string name="save_new_dog">Save New Dog</string>
+    <string name="description_set">Description:</string>
+    <string name="dog_description_hint">Tell us about your dog</string>
+    <string name="no_dogs_saved">You don\'t have any dogs saved! Tap the button to add one!</string>
+
+    <string name="dog_photo_content_description">Dogs registered to the user</string>
+    <string name="active_dog_photo_description">Active dog at this marker</string>
+
+    <string name="campus_search">Search (campus name, city, or state)</string>
+    <string name="campus_save">Save Campus</string>
+    <string name="title_activity_account_settings">AccountSettingsActivity</string>
+
+    <string name="walk_duration_setting">Walk Time:</string>
+    <string name="walk_duration_units">minutes</string>
+    <string name="walk_duration_default">30</string>
+    <string name="walk_duration_description">Walk Time is how long your location will display before
+        it times out. You always have the option to end your walk early, but we would recommend
+        setting your Walk Time just shy of how long you usually walk for.</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="delete_account_title">Want to remove your account from DogGo?</string>
+
+    <string name="find_dog_button_text">Find a Dog</string>
+    <string name="walk_dog_button_text">Go For a Walk</string>
+    <string name="title_activity_walk_dog">Walk Dog</string>
+    <string name="title_activity_meet_dogs">Find Dogs</string>
+
+    <string name="title_activity_delete_account">Delete Account</string>
+    <string name="title_activity_user_report">File a User Report</string>
+
+    <string name="what_is_doggo_title">What is DogGo?</string>
+    <string name="what_is_doggo_text">DogGo is a great way for university students and local
+        communities to connect with each other and, more importantly, meet and play with dogs. As a
+        Dog Walker, DogGo broadcasts your location to individuals looking to pet some pups, and as a
+        Dog Petter, DogGo shows you on a map the locations and photos of dogs nearby.</string>
+    <string name="more_about_us_title">More About Us</string>
+    <string name="more_about_us_text">Official website coming soon, but in the meantime check us out
+        on Instagram @dog.go.app!</string>
+    <string name="getting_started_title">Getting Started</string>
+    <string name="getting_started_text">Before using DogGo, you must specify what campus you
+        are on or most near. This allows us to save wireless data usage by only showing nearby
+        dogs. Do this by selecting the "My Campus" section from the main menu. After this Dog
+        Petters are good to go, but Dog Walkers have a few more steps. In settings, specify what
+        walk duration you wish to set. This allows us to stop the location services after a certain
+        amount of time so only dogs that are actively being walked show up on the map. Lastly,
+        before you go out for a walk you must make a short profile on your dog or dogs. This is
+        simply their name, a short description, and a photo.</string>
+    <string name="how_to_title">How To Use DogGo</string>
+    <string name="how_to_text1">Dog Walkers: After you\'ve completed the short profile about your
+        pup and specified your campus and walk duration, simply click the "Go For a Walk" button on
+        the main menu. DogGo will then begin to broadcast your location. When you close the app,
+        navigate off the Dog Walking Map, or finish the set duration of your walk, DogGo will stop
+        broadcasting your location.</string>
+    <string name="how_to_text2">Dog Petters: After you\'ve saved what campus you are closest to,
+        simply click the "Pet Dogs" button and you will be shown a map with your location and the
+        locations of all the dogs that are walking on your campus.</string>
+    <string name="rules_title">Rules</string>
+    <string name="rules_text">1. Wholesome interactions only. When meeting others on DogGo please
+        be polite, kind, and positive to all you meet.\n
+        2. Be clean. As a Dog Walker, the profiles of your dogs are publicly visible. Any
+        inappropriate photos or text in these profiles will result in an instant-ban from the app.\n
+        3. Guidelines for dog profiles: Photos should be clear and only of your dog. The name field
+        should include only your dog\'s name. The description field should be a short bio about your
+        dog. If your dog has any special needs when meeting new people note them here. Some examples
+        would be if your dog needs others to approach slowly, if they play better with adults than
+        children or other dogs, if they might jump up as a greeting, etc.\n
+        4. For Dog Petters, it is highly recommended to check out a dog's profile before
+        approaching them. To do this, just tap and hold on the paw print marker on the map.</string>
+    <string name="safety_title">Safety and Conduct</string>
+    <string name="safety_text">DogGo is a wholesome and all inclusive community for the purpose of
+        enjoying the company of dogs. If anyone violates the rules of the app they can be reported
+        and will have their account reviewed and possibly banned from the app. In the case of a
+        user being rude or negative to the DogGo community, please describe the interaction in
+        detail in your report and our team will decide if we should issue a warning or a ban to that
+        user. In the case of inappropriate content in a DogWalker profile, tap and hold on their
+        location and then the file a report button at the bottom of their profile. This will send a
+        flag to us so we can review their account immediately. Any method of reporting is
+        confidential, though we may request some contact info for follow-up questions.\n
+        As a Dog Walker, if you have any safety concerns about broadcasting your location, simply
+        tap the cancel button on your map to stop your location broadcasting. Closing the app will
+        also stop broadcasting your location.</string>
+
+    <string name="delete_account">Delete Your Account</string>
+    <string name="delete_my_account">Yes, Delete My Account</string>
+    <string name="delete_account_description">Deleting your account will remove your account
+        information and all dog profiles you have set up, including photos and any text you
+        have provided. Are you sure you want to continue? Once this is done it cannot be undone.
+    </string>
+
+    <string name="no_dog_info_description">Something went wrong fetching the dog information.
+    </string>
+
+    <string name="report_user">Report User</string>
+    <string name="report_comment_description">Add a comment to your Dog Walker report. Please
+        describe the reason for your report. If you are filing this report due to inappropriate
+        conduct when meeting, please describe the Dog Walker and the interaction in thorough detail.
+    </string>
+
+    <!-- TERMS OF USE -->
+
+    <string name="terms_of_use_title">Terms of Use</string>
+    <string name="terms_of_use_text">DogGo features User Generated Content which may consist of
+        photos and text. This agreement pertains to the rules and regulations of uploading content
+        and the consequences of violating said rules.
+    </string>
+    <string name="acceptance_title">Acceptance</string>
+    <string name="acceptance_text"><b>BY ACCESSING AND USING DOGGO, YOU ACCEPT AND AGREE TO BE BOUND
+        TO THE TERMS AND PROVISION OF THIS AGREEMNT. ANY PARTICIPATION IN THIS SERVICE WILL
+        CONSTITUTE ACCEPTANCE OF THIS AGREEMNT. IF YOU DO NOT AGREE TO ABIDE BY THE ABOVE, DO NOT
+        USE DOGGO.</b>
+    </string>
+    <string name="ugc_definitions_title">User Generated Content Definitions</string>
+    <string name="ugc_definitions_text">Dog Walkers (Walkers): Users of DogGo who broadcast their
+        location. The intention is for Dog Walkers to find individuals to come meet and play with
+        their dogs, but for this agreement, Dog Walkers will pertain to any individual who
+        broadcasts their location.\n\n
+        Dog Petters (Petters): Users of DogGo who receive the broadcasted locations of Dog Walkers.
+        The intention is for Dog Petters to meet and play with the dogs of nearby active Dog
+        Walkers, but for this agreement, Dog Petters will pertain to any individual who receives
+        locations of other users through the app.\n\n
+        Active Users: Any DogGo user who is currently using the app. This can mean the user has the
+        app open and is either broadcasting or receiving location or the app is minimized and the
+        user us broadcasting location. It does not mean a use who has the app installed but is not
+        using it or a user who is using the app but is not broadcasting or receiving location.\n
+        Dog Profile: Before a user can walk their dog they must complete a "Dog Profile". This is
+        simply the combination of a photo of their dog, it's name, and a short description. The
+        elements of this are the sole elements considered "User Generated Content" and while this
+        agreement is directed toward their conduct, it shall also apply to any other User Generated
+        Content on any related site, social media, or app.\n\n
+        User Report: If a Dog Petter or Walker has deemed any User Generated Content from another
+        Dog Walker inappropriate, offensive, graphic, or unsettling, they may file a report to mark
+        that user for review. User reports may also be filed if a Dog Walker has appropriate User
+        Generated Content but acts inappropriately during an interaction. This again will mark the
+        user for review and lead to possible termination from the app.
+    </string>
+    <string name="ugc_rules_title">User Generated Content Rules</string>
+    <string name="ugc_rules_text">Photos: The photo must be primarily focused on a dog and contain
+        no inappropriate content. Inappropriate content includes but it not limited to: sexually
+        explicit images, anything that may depict, encourage, or incite violence or bullying, and
+        anything that individuals may find offensive, graphic, or unsettling within reason.\n\n
+        Text: All text, including dog name and description, must be clean, free from vulgar or
+        offensive language, and must be friendly to Dog Petters. In completing the Dog Profile, the
+        name field must be only the dog's name, and the description field must contain only relevant
+        information about the dog that is being walked. If any information strays from these
+        guidelines or if a user finds them to be offensive or inappropriate, the offending account
+        may be terminated.
+    </string>
+    <string name="consequences_title">Consequences for Violating User Generated Content Rules
+    </string>
+    <string name="consequences_text">If a user deems a Dog Walker\'s content to be inappropriate and
+        files a report, we then review that Dog Walker\'s content and determine the responding
+        actions. If the content is deemed okay, the report will be removed and Dog Walker may
+        continue to use the app. If the content only mildly breaks the rules, the Dog Walker will be
+        notified and required to change their information before continuing to use the app. If the
+        content is in major violation of the rules, we may fully terminate the Dog Walker\'s
+        account. This would include deleting all stored personal information and User Generated
+        Content.\n\n
+        If a user deems the interaction they had with a Dog Walker inappropriate, we then review the
+        report and depending on the severity may choose to terminate the account immediately, or
+        notify the Dog Walker and keep a tally of the "strikes" they receive. Depending on the
+        severity of repeated offenses we may terminate the account at any time, however termination
+        is likely after 3 strikes of any kind to the account.
+    </string>
+    <string name="judgement_title">Judgment of Content</string>
+    <string name="judgment_text">DogGo reserves the right to terminate any account for inappropriate
+        content or conduct at any time and shall be the sole and final judgment of content quality.
+        If a user\'s account is terminated for reasons involving their content or interactions, we
+        will do our best to notify them but are neither obligated to nor responsible for doing so.
+    </string>
+
+    <!-- PRIVACY POLICY -->
+
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_policy_text">We created DogGo to be a tool for college and university
+        students to have access to the many benefits that come from having time to socialize with
+        dogs as well as a tool for local dog owners to get their animals more time to socialize and
+        play. In no way does the collection of user data contribute to this experience so we at
+        DogGo try to do so as minimally as possible.
+    </string>
+    <string name="personal_info_title">What Personal Information We Collect</string>
+    <string name="personal_info_text">The only personal information we collect is your email
+        address. We also have access to which campus you are actively walking on as a Dog Walker,
+        and any User Uploaded Content you provide.
+    </string>
+    <string name="info_use_title">How We Use the Information We Collect</string>
+    <string name="info_use_text">Your email is used to tie any user uploaded content to your account
+        so we can trace where user content comes from and some of the functionality of our app is
+        contingent on tying users to their content. We do not share any user information with any
+        third parties unless (1) you have given us your explicit permission to do so; (2) we are
+        legally required to do so, for example, in response to a subpoena, court order, or other
+        legal process; (3) it is necessary to protect our property rights related to DogGo. We may
+        also share aggregate, non personal information with third parties if necessary.\n\n
+        We also reserve the right to use any User Uploaded Content for marketing and presenting
+        DogGo on social media or otherwise. In doing so we will not share any personal
+        information.\n\n
+        Your User Uploaded Content will also be available to other DogGo users while you are active
+        on the app.
+    </string>
+    <string name="protection_title">How We Protect Your Information</string>
+    <string name="protection_text">We exercise great care to protect your personal information. All
+        information is stored securely, however we cannot ensure or warrant the security of any
+        information you transmit to or receive from us. If you wish to stop using DogGo and for your
+        information to be entirely removed from our database, follow the "Delete Account" protocol
+        in the account settings. This will remove your email and all account information.
+    </string>
+
+    <!-- TERMS AND CONDITIONS -->
+
+    <string name="terms_and_conditions_title">Terms and Conditions</string>
+    <string name="info_accuracy_title">Information Accuracy and Liability</string>
+    <string name="info_accuracy_text">The DogGo Android App and any affiliated apps, websites, and
+        social media are offered for social and informational purposes only. DogGo, it\'s creators,
+        and any affiliates shall not be responsible or liable for the accuracy, usefulness, or
+        availability of any information transmitted or made available via the app or any related
+        platforms, and shall not be responsible or liable for any error or omissions in that
+        information.
+    </string>
+    <string name="advertising_title">Advertising</string>
+    <string name="advertising_text">DogGo currently does not feature advertising or monetization of
+        any sort. DogGo was created initially as a school project and later developed further as a
+        passion project without any intention monetization. This being said, should user-ship grow
+        and monetization become viable, we reserve the right to implement advertisements at any
+        time.
+    </string>
+    <string name="termination_title">Termination</string>
+    <string name="termination_text">DogGo requires users to create an account. We may terminate your
+        account on DogGo at any time, with or without cause or notice, which may result in the
+        forfeiture and destruction of all information associated with your account. All provisions
+        of the Agreement that, by their nature, should survive termination, including, without
+        limitation, ownership provisions, user uploaded content restrictions, and limitations of
+        liability.
+    </string>
+    <string name="changes_title">Notification of Changes</string>
+    <string name="changes_text">We reserve the right to change these conditions as we see fit and
+        your continued use of DogGo will signify your acceptance of any adjustment to these terms.
+        If there are any changes to our privacy policy, we will announce these changes in any app
+        updates and on any related websites or social media. If there are any changes in how we use
+        our users\' Personally Identifiable Information, notification by email will be made to those
+        affected by the change. Any changes to our privacy policy will be posted 30 days prior to
+        these changes taking place. You are therefore advised to re-read this statement on a regular
+        basis.
+    </string>
+
+</resources>

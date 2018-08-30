@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kurtlemon.doggo.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ImageView
+        android:id="@+id/main_logo_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/dog_go_logo" />
+
+    <Button
+        android:id="@+id/findDogButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:drawableLeft="@drawable/ic_find_dogs"
+        android:drawableStart="@drawable/ic_find_dogs"
+        android:text="@string/find_dog_button_text"
+
+        style="@style/MainButton"/>
+
+    <Button
+        android:id="@+id/walkDogButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/walk_dog_button_text"
+        android:drawableLeft="@drawable/ic_walk_dog"
+        android:drawableStart="@drawable/ic_walk_dog"
+
+        style="@style/MainButton" />
+
+</LinearLayout>

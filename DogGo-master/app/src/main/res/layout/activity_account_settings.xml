@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kurtlemon.doggo.AccountSettingsActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3">
+
+        <TextView
+            android:id="@+id/walkTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:paddingLeft="10dp"
+            android:text="@string/walk_duration_setting"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/walkTimeEditText"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:layout_gravity="right"
+            android:ems="10"
+            android:gravity="right"
+            android:inputType="number"
+            android:text="@string/walk_duration_default" />
+
+        <TextView
+            android:id="@+id/walkTimeUnitsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:paddingRight="10dp"
+            android:text="@string/walk_duration_units"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/walkTimeDescriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3"
+            android:paddingBottom="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/walk_duration_description" />
+
+        <TextView
+            android:id="@+id/deleteAccountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3"
+            android:paddingLeft="10dp"
+            android:text="@string/delete_account_title"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/deleteAccountButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3"
+            android:text="@string/delete_account" />
+
+        <Button
+            android:id="@+id/saveSettingsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3"
+            android:layout_gravity="bottom"
+            android:text="@string/save_settings" />
+
+    </GridLayout>
+
+</LinearLayout>

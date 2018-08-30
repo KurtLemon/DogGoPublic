@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermsAndConditionsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/termsAndConditionsTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/terms_and_conditions_title"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/acceptanceTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/acceptance_title"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/acceptanceTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/acceptance_text" />
+
+            <TextView
+                android:id="@+id/accuracyTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info_accuracy_title"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/accuracyTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info_accuracy_text" />
+
+            <TextView
+                android:id="@+id/advertisingTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/advertising_title"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/advertisingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/advertising_text" />
+
+            <TextView
+                android:id="@+id/terminationTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/termination_title"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/terminationTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/termination_text" />
+
+            <TextView
+                android:id="@+id/changesTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/changes_title"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/changesTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/changes_text" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
