@@ -1,5 +1,5 @@
 # DogGoPublic
-The public repository for the DogGo Android app. The purpose of this repository is to highlight my skills as a programmer and to provide context for any DogGo users who might be interseted in how DogGo was created. Sensitive files, gradle files, and other generated files are not included but much of the functional code is.
+The public repository for the DogGo Android app. The most updated version of this app is kept in a private repository that includes all the sensitive files and info, like API keys, signing certificates, etc. The purpose of this repository is to provide users of the app a peek into the code that drives it as well as helping out any other new Android programmers (like myself) learn some of the topics here by example.
 
 Thank you for checking out DogGo! DogGo can be found on the Play Store at https://play.google.com/store/apps/details?id=com.kurtlemon.doggo. You can also find us on Instagram @dog.go.app for dog photos and general news about the app.
 
